@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(39, 87, 103);
+  background-image: url("back.jpg");
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-size: cover;
+}
+
+header {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(207, 13, 13, 0.5);
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+#content {
+  padding-top: 60px; /* Adjust according to the height of your navigation bar */
+}
+.center-content {
+  text-align: center;
+}
+
+#home {
+  text-align: center;
+}
+
+#home h2 {
+  font-size: 30px;
+}
+h2{
+  color:white
+}
+#content
+{
+  color:white
+}
+#about
+{
+  
+  text-align:left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#image
+{
+  padding-left: 590px;
+  padding-top: 200px;
+}
+#education
+{
+  text-align:center;
+
+}
+#move
+{
+  padding-top: 120px;
+
+}
+#skills
+{
+  padding-top: 120px;
+}
+#py
+{
+  padding-right: 100px;
+}
+#java
+{
+  padding-right: 120px;
+}
+.skill
+{
+  font-size: 20px;
+}
+#s
+{
+  font-size: 30px;
+}
+#c
+{
+  padding-right: 30px;
+}
+#blender
+{
+  padding-right: 50px;
+}
+#canva
+{
+  padding-right: 120px;
+}
+#projects
+{
+  padding-top: 120px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#para
+{
+font-size: 20px;
+}
+#pp
+{
+  font-size: 20px;
+}
+#des
+{
+  font-size: 30px;
+  padding-top: 20px;
+}
+#de
+{
+  text-align: center;
+  font-size: 40px;
+}
+#contact
+{
+  font-size: 30px;
+}
