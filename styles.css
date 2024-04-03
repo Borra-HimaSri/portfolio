@@ -146,3 +146,27 @@ font-size: 20px;
 {
   font-size: 30px;
 }
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  #image {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  #education, #move, #skills, #projects {
+    padding-top: 50px;
+  }
+  .skill, #s, #para, #pp, #des, #de, #contact {
+    font-size: 20px;
+  }
+  #py, #java, #c, #blender, #canva {
+    padding-right: 10px;
+  }
+  #about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #projects {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
